@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="fasttext" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/kinetik/Downloads/fastText" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/kinetik/Downloads/fastText/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/kinetik/Downloads/fastText/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/kinetik/Downloads/fastText/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/kinetik/Downloads/fastText/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="fasttext-bin">
+         <Option output="/home/kinetik/Downloads/fastText/fasttext" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/kinetik/Downloads/fastText" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/kinetik/Downloads/fastText/fasttext" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/kinetik/Downloads/fastText/Makefile&quot;  VERBOSE=1 fasttext-bin" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/kinetik/Downloads/fastText/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/kinetik/Downloads/fastText/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/kinetik/Downloads/fastText/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="fasttext-bin/fast">
+         <Option output="/home/kinetik/Downloads/fastText/fasttext" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/kinetik/Downloads/fastText" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/kinetik/Downloads/fastText/fasttext" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/kinetik/Downloads/fastText/Makefile&quot;  VERBOSE=1 fasttext-bin/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/kinetik/Downloads/fastText/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/kinetik/Downloads/fastText/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/kinetik/Downloads/fastText/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="fasttext-shared">
+         <Option output="/home/kinetik/Downloads/fastText/libfasttext.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/kinetik/Downloads/fastText" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/kinetik/Downloads/fastText/fasttext" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/kinetik/Downloads/fastText/Makefile&quot;  VERBOSE=1 fasttext-shared" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/kinetik/Downloads/fastText/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/kinetik/Downloads/fastText/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/kinetik/Downloads/fastText/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="fasttext-shared/fast">
+         <Option output="/home/kinetik/Downloads/fastText/libfasttext.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/kinetik/Downloads/fastText" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/kinetik/Downloads/fastText/fasttext" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/kinetik/Downloads/fastText/Makefile&quot;  VERBOSE=1 fasttext-shared/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/kinetik/Downloads/fastText/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/kinetik/Downloads/fastText/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/kinetik/Downloads/fastText/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="fasttext-static">
+         <Option output="/home/kinetik/Downloads/fastText/libfasttext.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/kinetik/Downloads/fastText" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/kinetik/Downloads/fastText/fasttext" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/kinetik/Downloads/fastText/Makefile&quot;  VERBOSE=1 fasttext-static" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/kinetik/Downloads/fastText/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/kinetik/Downloads/fastText/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/kinetik/Downloads/fastText/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="fasttext-static/fast">
+         <Option output="/home/kinetik/Downloads/fastText/libfasttext.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/kinetik/Downloads/fastText" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/kinetik/Downloads/fastText/fasttext" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/kinetik/Downloads/fastText/Makefile&quot;  VERBOSE=1 fasttext-static/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/kinetik/Downloads/fastText/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/kinetik/Downloads/fastText/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/kinetik/Downloads/fastText/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="fasttext-static_pic">
+         <Option output="/home/kinetik/Downloads/fastText/libfasttext_pic.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/kinetik/Downloads/fastText" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/kinetik/Downloads/fastText/fasttext" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/kinetik/Downloads/fastText/Makefile&quot;  VERBOSE=1 fasttext-static_pic" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/kinetik/Downloads/fastText/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/kinetik/Downloads/fastText/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/kinetik/Downloads/fastText/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="fasttext-static_pic/fast">
+         <Option output="/home/kinetik/Downloads/fastText/libfasttext_pic.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/kinetik/Downloads/fastText" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/kinetik/Downloads/fastText/fasttext" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/kinetik/Downloads/fastText/Makefile&quot;  VERBOSE=1 fasttext-static_pic/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/kinetik/Downloads/fastText/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/kinetik/Downloads/fastText/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/kinetik/Downloads/fastText/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install">
+         <Option working_dir="/home/kinetik/Downloads/fastText" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/kinetik/Downloads/fastText/Makefile&quot;  VERBOSE=1 install" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/kinetik/Downloads/fastText/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/kinetik/Downloads/fastText/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/kinetik/Downloads/fastText/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/local">
+         <Option working_dir="/home/kinetik/Downloads/fastText" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/kinetik/Downloads/fastText/Makefile&quot;  VERBOSE=1 install/local" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/kinetik/Downloads/fastText/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/kinetik/Downloads/fastText/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/kinetik/Downloads/fastText/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/strip">
+         <Option working_dir="/home/kinetik/Downloads/fastText" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/kinetik/Downloads/fastText/Makefile&quot;  VERBOSE=1 install/strip" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/kinetik/Downloads/fastText/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/kinetik/Downloads/fastText/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/kinetik/Downloads/fastText/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="list_install_components">
+         <Option working_dir="/home/kinetik/Downloads/fastText" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/kinetik/Downloads/fastText/Makefile&quot;  VERBOSE=1 list_install_components" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/kinetik/Downloads/fastText/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/kinetik/Downloads/fastText/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/kinetik/Downloads/fastText/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/kinetik/Downloads/fastText" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/kinetik/Downloads/fastText/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/kinetik/Downloads/fastText/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/kinetik/Downloads/fastText/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/kinetik/Downloads/fastText/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/kinetik/Downloads/fastText/src/args.cc">
+      </Unit>
+      <Unit filename="/home/kinetik/Downloads/fastText/src/dictionary.cc">
+      </Unit>
+      <Unit filename="/home/kinetik/Downloads/fastText/src/fasttext.cc">
+      </Unit>
+      <Unit filename="/home/kinetik/Downloads/fastText/src/main.cc">
+      </Unit>
+      <Unit filename="/home/kinetik/Downloads/fastText/src/matrix.cc">
+      </Unit>
+      <Unit filename="/home/kinetik/Downloads/fastText/src/model.cc">
+      </Unit>
+      <Unit filename="/home/kinetik/Downloads/fastText/src/productquantizer.cc">
+      </Unit>
+      <Unit filename="/home/kinetik/Downloads/fastText/src/qmatrix.cc">
+      </Unit>
+      <Unit filename="/home/kinetik/Downloads/fastText/src/utils.cc">
+      </Unit>
+      <Unit filename="/home/kinetik/Downloads/fastText/src/vector.cc">
+      </Unit>
+      <Unit filename="/home/kinetik/Downloads/fastText/src/args.h">
+      </Unit>
+      <Unit filename="/home/kinetik/Downloads/fastText/src/dictionary.h">
+      </Unit>
+      <Unit filename="/home/kinetik/Downloads/fastText/src/fasttext.h">
+      </Unit>
+      <Unit filename="/home/kinetik/Downloads/fastText/src/matrix.h">
+      </Unit>
+      <Unit filename="/home/kinetik/Downloads/fastText/src/model.h">
+      </Unit>
+      <Unit filename="/home/kinetik/Downloads/fastText/src/productquantizer.h">
+      </Unit>
+      <Unit filename="/home/kinetik/Downloads/fastText/src/qmatrix.h">
+      </Unit>
+      <Unit filename="/home/kinetik/Downloads/fastText/src/real.h">
+      </Unit>
+      <Unit filename="/home/kinetik/Downloads/fastText/src/utils.h">
+      </Unit>
+      <Unit filename="/home/kinetik/Downloads/fastText/src/vector.h">
+      </Unit>
+      <Unit filename="/home/kinetik/Downloads/fastText/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

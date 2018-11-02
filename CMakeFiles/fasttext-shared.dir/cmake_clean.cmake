@@ -1,0 +1,19 @@
+FILE(REMOVE_RECURSE
+  "CMakeFiles/fasttext-shared.dir/src/args.cc.o"
+  "CMakeFiles/fasttext-shared.dir/src/dictionary.cc.o"
+  "CMakeFiles/fasttext-shared.dir/src/fasttext.cc.o"
+  "CMakeFiles/fasttext-shared.dir/src/main.cc.o"
+  "CMakeFiles/fasttext-shared.dir/src/matrix.cc.o"
+  "CMakeFiles/fasttext-shared.dir/src/model.cc.o"
+  "CMakeFiles/fasttext-shared.dir/src/productquantizer.cc.o"
+  "CMakeFiles/fasttext-shared.dir/src/qmatrix.cc.o"
+  "CMakeFiles/fasttext-shared.dir/src/utils.cc.o"
+  "CMakeFiles/fasttext-shared.dir/src/vector.cc.o"
+  "libfasttext.pdb"
+  "libfasttext.so"
+)
+
+# Per-language clean rules from dependency scanning.
+FOREACH(lang CXX)
+  INCLUDE(CMakeFiles/fasttext-shared.dir/cmake_clean_${lang}.cmake OPTIONAL)
+ENDFOREACH(lang)

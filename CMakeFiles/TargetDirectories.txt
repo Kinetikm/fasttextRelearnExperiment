@@ -1,0 +1,4 @@
+/home/kinetik/Downloads/fastText/CMakeFiles/fasttext-bin.dir
+/home/kinetik/Downloads/fastText/CMakeFiles/fasttext-shared.dir
+/home/kinetik/Downloads/fastText/CMakeFiles/fasttext-static.dir
+/home/kinetik/Downloads/fastText/CMakeFiles/fasttext-static_pic.dir
